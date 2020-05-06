@@ -1,4 +1,8 @@
 # rest-api-with-node
 
 #TODO
-- add linter
+- add router slide
+- add router tests
+- add controller slide
+- add controller tests
+

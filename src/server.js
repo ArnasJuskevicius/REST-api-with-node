@@ -1,9 +1,10 @@
 import express from 'express'
+import { itemRouter } from './resources/item'
 
-const app = express()
+export const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.send('hello world'))
+app.use('/api/item', itemRouter)
 
 export const start = async () => {
   app.listen(port, () => console.log('Server works on port 3000'))

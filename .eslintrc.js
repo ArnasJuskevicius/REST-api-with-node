@@ -1,13 +1,14 @@
 module.exports = {
     'env': {
-        'node': true
+        'node': true,
+        'jest': true
     },
     'extends': [
         'eslint:recommended',
         'prettier',
         'plugin:prettier/recommended'
     ],
-    'plugins': ['prettier'],
+    'plugins': ['prettier', 'jest'],
     'globals': {
         'Atomics': 'readonly',
         'SharedArrayBuffer': 'readonly'
